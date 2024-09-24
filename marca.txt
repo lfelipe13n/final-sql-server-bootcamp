@@ -1,0 +1,51 @@
+id	nombre_marca	pais_origen
+1	Samsung	Corea del Sur
+2	Apple	Estados Unidos
+3	Sony	Japón
+4	LG	Corea del Sur
+5	Huawei	China
+6	Xiaomi	China
+7	Dell	Estados Unidos
+8	HP	Estados Unidos
+9	Asus	Taiwán
+10	Lenovo	China
+11	Acer	Taiwán
+12	Panasonic	Japón
+13	Microsoft	Estados Unidos
+14	Motorola	Estados Unidos
+15	Google	Estados Unidos
+16	Nvidia	Estados Unidos
+17	Intel	Estados Unidos
+18	AMD	Estados Unidos
+19	Philips	Países Bajos
+20	Toshiba	Japón
+21	BlackBerry	Canadá
+22	Oppo	China
+23	Vivo	China
+24	Realme	China
+25	OnePlus	China
+26	Sharp	Japón
+27	TCL	China
+28	Hisense	China
+29	Canon	Japón
+30	Nikon	Japón
+31	Fujifilm	Japón
+32	Olympus	Japón
+33	Sennheiser	Alemania
+34	Bang & Olufsen	Dinamarca
+35	JBL	Estados Unidos
+36	Harman Kardon	Estados Unidos
+37	Bose	Estados Unidos
+38	Beats by Dre	Estados Unidos
+39	GoPro	Estados Unidos
+40	Fitbit	Estados Unidos
+41	Garmin	Estados Unidos
+42	Alcatel	Francia
+43	ZTE	China
+44	Meizu	China
+45	Honor	China
+46	Vivo	China
+47	LG Electronics	Corea del Sur
+48	Mitsubishi	Japón
+49	Pioneer	Japón
+50	Seagate	Estados Unidos

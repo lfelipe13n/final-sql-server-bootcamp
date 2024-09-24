@@ -1,0 +1,51 @@
+id	nombre_proveedor	contacto	país
+1	Foxconn	foxconn@proveedor.com	Taiwán
+2	Pegatron	pegatron@proveedor.com	Taiwán
+3	Quanta	quanta@proveedor.com	Taiwán
+4	Compal	compal@proveedor.com	Taiwán
+5	Wistron	wistron@proveedor.com	Taiwán
+6	Flextronics	flextronics@proveedor.com	Estados Unidos
+7	Inventec	inventec@proveedor.com	Taiwán
+8	BYD Electronics	byd@proveedor.com	China
+9	Arima	arima@proveedor.com	Taiwán
+10	Jabil	jabil@proveedor.com	Estados Unidos
+11	Wintek	wintek@proveedor.com	Taiwán
+12	TCL	tcl@proveedor.com	China
+13	Lenovo	lenovo@proveedor.com	China
+14	LG Innotek	lginnotek@proveedor.com	Corea del Sur
+15	Sharp	sharp@proveedor.com	Japón
+16	Panasonic	panasonic@proveedor.com	Japón
+17	Sony	sony@proveedor.com	Japón
+18	Samsung Electro-Mechanics	samsung@proveedor.com	Corea del Sur
+19	AAC Technologies	aac@proveedor.com	China
+20	Goertek	goertek@proveedor.com	China
+21	Luxshare	luxshare@proveedor.com	China
+22	Largan Precision	largan@proveedor.com	Taiwán
+23	TSMC	tsmc@proveedor.com	Taiwán
+24	ASE Group	ase@proveedor.com	Taiwán
+25	Foxlink	foxlink@proveedor.com	Taiwán
+26	AcBel	acbel@proveedor.com	Taiwán
+27	Delta Electronics	delta@proveedor.com	Taiwán
+28	Phison	phison@proveedor.com	Taiwán
+29	UMC	umc@proveedor.com	Taiwán
+30	Sunwoda	sunwoda@proveedor.com	China
+31	BOE Technology	boe@proveedor.com	China
+32	HannStar Display	hannstar@proveedor.com	Taiwán
+33	Zhen Ding Technology	zdtech@proveedor.com	China
+34	Yageo Corporation	yageo@proveedor.com	Taiwán
+35	Micro-Star International	msi@proveedor.com	Taiwán
+36	ADATA Technology	adata@proveedor.com	Taiwán
+37	Realtek Semiconductor	realtek@proveedor.com	Taiwán
+38	AU Optronics	auo@proveedor.com	Taiwán
+39	Novatek Microelectronics	novatek@proveedor.com	Taiwán
+40	King Yuan Electronics	kyc@proveedor.com	Taiwán
+41	Unimicron Technology	unimicron@proveedor.com	Taiwán
+42	Chunghwa Picture Tubes	chunghwa@proveedor.com	Taiwán
+43	Everlight Electronics	everlight@proveedor.com	Taiwán
+44	Innolux Corporation	innolux@proveedor.com	Taiwán
+45	NexPower Technology	nexp@proveedor.com	Taiwán
+46	Nanya Technology	nanya@proveedor.com	Taiwán
+47	Macronix	macronix@proveedor.com	Taiwán
+48	Lite-On Technology	liteon@proveedor.com	Taiwán
+49	Kinsus Interconnect Technology	kinsus@proveedor.com	Taiwán
+50	Amkor Technology	amkor@proveedor.com	Estados Unidos
