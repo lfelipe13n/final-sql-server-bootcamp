@@ -17,13 +17,16 @@ CREATE TABLE cliente (
 );
 GO
 
--- Categoría (Tabla sin FK)
+-- CategorÃ­a (Tabla sin FK)
 CREATE TABLE categoria (
     id_categoria INT PRIMARY KEY IDENTITY(1,1),
     nombre_categoria VARCHAR(100) NOT NULL,
-    descripcion VARCHAR(255)
+    descripcion VARCHAR(255),
 );
 GO
+
+	ALTER TABLE categoria
+	ALTER COLUMN descripcion VARCHAR(MAX) NOT NULL;
 
 -- Marca (Tabla sin FK)
 CREATE TABLE marca (
@@ -32,6 +35,9 @@ CREATE TABLE marca (
     pais_origen VARCHAR(100) NOT NULL
 );
 GO
+
+	ALTER TABLE marca
+	ALTER COLUMN pais_origen VARCHAR(MAX) NOT NULL;
 
 -- Producto (Con FK a marca y categoria)
 CREATE TABLE producto (
@@ -48,10 +54,10 @@ CREATE TABLE producto (
 );
 GO
 
--- Método de Pago (Tabla sin FK)
+-- MÃ©todo de Pago (Tabla sin FK)
 CREATE TABLE metodo_pago (
     id_metodo_pago INT PRIMARY KEY IDENTITY(1,1),
-    tipo VARCHAR(50) NOT NULL, -- Ej: 'Tarjeta de crédito', 'PayPal'
+    tipo VARCHAR(50) NOT NULL, -- Ej: 'Tarjeta de crÃ©dito', 'PayPal'
     descripcion VARCHAR(250)
 );
 GO
@@ -82,7 +88,7 @@ CREATE TABLE detalle_pedido (
 );
 GO
 
--- Almacén (Tabla sin FK)
+-- AlmacÃ©n (Tabla sin FK)
 CREATE TABLE almacen (
     id_almacen INT PRIMARY KEY IDENTITY(1,1),
     nombre_almacen VARCHAR(100) NOT NULL,
@@ -102,7 +108,7 @@ CREATE TABLE inventario (
 );
 GO
 
--- Reseña (Con FK a producto y cliente)
+-- ReseÃ±a (Con FK a producto y cliente)
 CREATE TABLE resena (
     id_resena INT PRIMARY KEY IDENTITY(1,1),
     calificacion INT NOT NULL, -- Valor entre 1 y 5
@@ -115,7 +121,7 @@ CREATE TABLE resena (
 );
 GO
 
--- Promoción (Con FK a producto)
+-- PromociÃ³n (Con FK a producto)
 CREATE TABLE promocion (
     id_promocion INT PRIMARY KEY IDENTITY(1,1),
     nombre_promocion VARCHAR(100) NOT NULL,
@@ -131,8 +137,11 @@ GO
 CREATE TABLE proveedor (
     id_proveedor INT PRIMARY KEY IDENTITY(1,1),
     nombre_proveedor VARCHAR(100) NOT NULL,
-    contacto VARCHAR(150),
-    pais VARCHAR(100) NOT NULL
+    contacto VARCHAR(150) NOT NULL,
+    pais VARCHAR(100) NOT
 );
 GO
+
+	ALTER TABLE proveedor
+	ALTER COLUMN contacto VARCHAR(MAX) NOT NULL;
 
